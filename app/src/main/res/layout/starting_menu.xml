@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:background="@drawable/starting_menu"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/slkscre"
+        android:rotationX="0"
+        android:text="@string/starting_menu_title1"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/slkscre"
+        android:text="@string/starting_menu_title2"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/slkscreb"
+        android:text="@string/starting_menu_button1"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:translationY="-60dp" />
+
+    <Button
+        android:id="@+id/option"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/slkscreb"
+        android:text="@string/starting_menu_button2"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/slkscreb"
+        android:text="@string/starting_menu_button3"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:translationY="80dp" />
+
+</RelativeLayout>

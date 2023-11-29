@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js"></script>
+    <script src="../libs/p5.speech.js"></script>
+</head>
+</html>
+<script>
+    let myRec = new p5.SpeechRec('en-US', parseResult);
+    myRec.continuous = true;
+    myRec.interimResults = true;
+    myRec.start();
+
+    function parseResult(){
+        let word = myRec.resultString.split(' ').pop();
+        console.log(word);
+    }
+</script>

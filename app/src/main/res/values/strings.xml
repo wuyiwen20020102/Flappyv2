@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Flappy</string>
+    <string name="starting_menu_title1">I Wanna Be</string>
+    <string name="starting_menu_title2">Flappy</string>
+    <string name="starting_menu_button1">Play</string>
+    <string name="starting_menu_button2">Option</string>
+    <string name="starting_menu_button3">Quit</string>
+    <string name="play_menu_title1">Select Your</string>
+    <string name="play_menu_title2">Mode</string>
+    <string name="play_menu_button1">Touch Control</string>
+    <string name="play_menu_button2">Voice Control</string>
+</resources>
